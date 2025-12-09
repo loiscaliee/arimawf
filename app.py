@@ -5,7 +5,7 @@ import numpy as np
 st.title("📈 BBCA Forecasting — ARIMA Model (Walk-Forward)")
 
 # LOAD MODEL
-model_obj = joblib.load("best_model_BBCA.joblib")
+model_obj = joblib.load("best_model_BCA.joblib")
 model = model_obj["model"]
 order = model_obj["order"]
 
